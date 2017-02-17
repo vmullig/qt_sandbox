@@ -1,0 +1,4 @@
+#ifndef WORKINGAREA3_H
+#define WORKINGAREA3_H
+
+#endif // WORKINGAREA3_H
