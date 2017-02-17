@@ -27,13 +27,12 @@ Item {
 
     GroupBox {
         id: groupBox
-        x: 120
-        y: 184
+        x: 112
+        y: 164
         width: 168
         height: 162
         enabled: true
         antialiasing: true
-        z: 1
         clip: false
         title: qsTr("Group Box")
 
