@@ -14,14 +14,17 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="WorkingArea3" name="graphicsView">
+   <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
-      <x>15</x>
-      <y>11</y>
+      <x>10</x>
+      <y>10</y>
       <width>711</width>
       <height>441</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(132, 143, 156, 255), stop:1 rgba(84, 101, 109, 255));</string>
     </property>
    </widget>
   </widget>
@@ -46,13 +49,6 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <customwidgets>
-  <customwidget>
-   <class>WorkingArea3</class>
-   <extends>QGraphicsView</extends>
-   <header location="global">workingarea3.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
